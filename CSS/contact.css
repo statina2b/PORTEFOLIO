@@ -133,7 +133,38 @@ label, #toggle{
 
     .container_contact{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
     }
+
+
+    .contact-wrapper{
+      height: 562Px;
+      position: relative;
+          display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .container {
+      /* Ajouter box-sizing */
+      box-sizing : border-box;
+      border-radius:37px;
+      background-color:#f2f2f2;
+      padding:20px;
+      width: 100%;
+      /* redéfinition 400 + 2*20 */
+      max-width: 440px;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .image_dev {
+      height: 100%;
+    }
+
 
     input[type=text], textarea, input[type=email] {
         font-family: Alef;
@@ -166,20 +197,7 @@ label, #toggle{
         background-color: lightgoldenrodyellow;
         color: skyblue;
       }
-      
-      .container {
-        /* Ajouter box-sizing */
-        box-sizing : border-box;
-        border-radius:37px;
-        background-color:#f2f2f2;
-        padding:20px;
-        width: 100%;
-        /* redéfinition 400 + 2*20 */
-        max-width: 440px;
-        margin:106px auto 0px 200px;
-        height: 562Px;
-        z-index: 1;
-      }
+  
       h1  {
         color: lightsalmon;
         font-family: Alef;
@@ -187,10 +205,10 @@ label, #toggle{
         margin-left: 24px;
       }
 
-      .image_deve img{
-        height: 564px;
-        width: 722px;
-        margin: 105px 86px 0px 0px;
+      .image_dev img{
+        height: 100%;
+        width: 100%;
+
         border-radius: 0px 100px 100px 0px;
         position: relative;
         left: -40px;
