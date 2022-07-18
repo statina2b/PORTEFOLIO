@@ -123,6 +123,7 @@ justify-content: center;
 .title-absolute{
     font-size:90px;
     letter-spacing:4px;
+    text-align: center;
 }
 
 .title-stroke-skill{
@@ -133,6 +134,8 @@ justify-content: center;
     font-size:44px;
     letter-spacing:4px;
 }
+
+
 
 .visu_text{ 
     font-size: 60px;
@@ -149,6 +152,7 @@ justify-content: center;
 .container_card {
     width: 100%; 
    margin-bottom: 50px;
+   height: 516px;
 }
 
 .logo_text{
