@@ -135,7 +135,30 @@ justify-content: center;
     letter-spacing:4px;
 }
 
+.title-stroke-into{
+    font-size: 68px;
 
+}
+
+.title-absolute-into{
+    font-size:  43px;
+
+}
+
+.title-stroke-festa{
+    font-size: 51px;
+
+}
+
+.title-absolute-festa{
+    font-size: 13px;
+}
+
+
+.title-absolute-film{
+    font-size: 68px;
+
+}
 
 .visu_text{ 
     font-size: 60px;
