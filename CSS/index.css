@@ -5,6 +5,11 @@ src:url("../typo/LongBaton-Regular.ttf")}
     padding: 0;
     box-sizing: border-box;
 }
+/* .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+} */
 
 nav{
 
@@ -116,7 +121,42 @@ text-decoration: none;
     border: 10px solid white;
     }
 
-.presentation-texts{
+    .presentation-texts{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .presentation-texts h1, h2, h3{
+  text-transform: uppercase;
+      margin: 10px;
+      color: white;
+      font-size: 60px;
+      margin:0;
+      }
+  
+      h1,h2,h3{
+      font-family: LongBaton;
+  }
+  
+  .presentation-texts h1{
+      color: lightsalmon;
+      -webkit-text-stroke: 2px white;
+      font-size: 200px;
+  }
+/* .presentation-texts{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,7 +181,7 @@ text-transform: uppercase;
     color: lightsalmon;
     -webkit-text-stroke: 2px white;
     font-size: 200px;
-}
+} */
 
 .presentation h2{
     position: relative;
